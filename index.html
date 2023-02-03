@@ -7,45 +7,64 @@
         <title>Memory Lane</title>
 
         <link rel="stylesheet" href="/stylesheet.css" />
-        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+        <link href="/dist/output.css" rel="stylesheet" />
     </head>
     <body>
         <main>
             <header>
                 <h1>Memory Lane</h1>
             </header>
-            <div class="grid grid-cols-2">
-                <main>
-                    <img src="/images/IMG_3561.JPG" class="profilePic" />
 
-                    <h2>Blogs</h2>
-                    <div class="blogName">
-                        <a href="/blog1.html">Today's Technology...</a>
-                        <br />
-                        <br />
-                        <a href="/blog2.html">What I've learned?</a>
-                        <br />
-                        <br />
-                        <a href="/blog3.html"
-                            >Something has been on my mind...</a
-                        >
-                        <br />
-                        <br />
-                        <a href="/blog4.html">Boy, Oh Boy. Keep it together!</a>
-                        <br />
-                        <br />
-                        <a href="/blog5.html"
-                            >Where the FrontEnd meets the Backend...</a
-                        >
-                        <br />
-                        <br />
-                        <a href="/blog6.html"
-                            >Authetication flow kicking my butt...</a
-                        >
+            <main class="mt-10">
+                <div
+                    class="grid md:grid-cols-2 justify-items-center justify-self-center"
+                >
+                    <div class="mt-10 text-center">
+                        <h1 class="text-2xl font-semibold">Traven Wells</h1>
+                        <img src="/images/IMG_3561.JPG" class="profilePic" />
                     </div>
-                </main>
-                <img src="/images/futuristic.jpeg" class="futuristic" />
-            </div>
+
+                    <div>
+                        <h2 class="mt-10 ml-10 font-semibold">Blogs</h2>
+                        <div
+                            class="mt-5 ml-5 mr-10 p-4 bg-blue-300 rounded-xl justify-self"
+                        >
+                            <a href="/blog1.html">Today's Technology...</a>
+                            <br />
+                            <br />
+                            <a href="/blog2.html">What I've learned?</a>
+                            <br />
+                            <br />
+                            <a href="/blog3.html"
+                                >Something has been on my mind...</a
+                            >
+                            <br />
+                            <br />
+                            <a href="/blog4.html"
+                                >Boy, Oh Boy. Keep it together!</a
+                            >
+                            <br />
+                            <br />
+                            <a href="/blog5.html"
+                                >Where the FrontEnd meets the Backend...</a
+                            >
+                            <br />
+                            <br />
+                            <a href="/blog6.html"
+                                >Authetication flow kicking my butt...</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <img
+                src="/images/futuristic.JPG"
+                class="mt-10 grid justify-items-center rounded-3xl"
+            />
         </main>
 
         <script src="/script.js">
